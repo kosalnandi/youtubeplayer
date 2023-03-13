@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5cb3f"
+    tools:context=".Activities.ten.TenActivity">
+
+    <ImageView
+        android:id="@+id/iv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/closedefault" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="Welcome To Ten Activity"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="click on the down button to go to next fragment"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/first_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/second_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toEndOf="@+id/first_btn4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/third_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/second_btn4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/forth_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forth"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/first_btn4"
+        app:layout_constraintTop_toBottomOf="@+id/first_btn4" />
+
+
+    <Button
+        android:id="@+id/fifth_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fifth"
+        app:layout_constraintStart_toStartOf="@+id/second_btn4"
+        app:layout_constraintTop_toBottomOf="@+id/second_btn4" />
+
+    <Button
+        android:id="@+id/sixth_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sixth"
+        app:layout_constraintStart_toStartOf="@+id/third_btn4"
+        app:layout_constraintTop_toBottomOf="@+id/third_btn4" />
+
+    <Button
+        android:id="@+id/seven_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Seven"
+        app:layout_constraintEnd_toEndOf="@+id/forth_btn"
+        app:layout_constraintStart_toStartOf="@+id/forth_btn"
+        app:layout_constraintTop_toBottomOf="@+id/third_btn4" />
+
+    <Button
+        android:id="@+id/eight_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eight"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/fifth_btn4"
+        app:layout_constraintStart_toStartOf="@+id/fifth_btn4"
+        app:layout_constraintTop_toBottomOf="@+id/fifth_btn4" />
+
+    <Button
+        android:id="@+id/ten_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nine"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/sixth_btn4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/sixth_btn4"
+        app:layout_constraintTop_toBottomOf="@+id/sixth_btn4" />
+
+    <EditText
+        android:id="@+id/data_ET10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFFFF"
+        android:elevation="20dp"
+        android:hint="Please Enter Data "
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eight_btn4" />
+
+    <TextView
+        android:id="@+id/data_TV10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginEnd="10dp"
+        android:textColor="#FF000000"
+        app:layout_constraintEnd_toEndOf="@+id/data_ET10"
+        app:layout_constraintStart_toStartOf="@+id/data_ET10"
+        app:layout_constraintTop_toBottomOf="@+id/data_ET10" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:videoId="tj5sLSFjVj4" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
